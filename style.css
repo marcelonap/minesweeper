@@ -1,0 +1,62 @@
+/*I am using a Dell G7 laptop with windows 10, intel core i7 8th gen and using google chrome*/
+
+/*setting page background*/
+body{
+	background-image: url('background_page.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+/*Styling the intial squares*/
+.unknown{
+	width: 30px;
+	height: 30px;
+	background-color: #eba47f;
+	border: 2px solid black;
+	text-align: center;
+	color: #0b7685;
+}
+
+/*adding the hilight feature*/
+ .unknown:hover{
+	background-color: #e66a29;
+}
+
+/*styling the clicked squares that have no tomatoes*/
+.known{
+	width: 30px;
+	height: 30px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+/*styling the clicked squares with tomatoes with a tomato picture*/
+.knownMine{
+	width: 30px;
+	height: 30px;
+	background-image: url("tomato_sprite.png");
+	background-repeat: no-repeat;
+	background-size:contain;
+	border: 2px solid black;
+}
+
+/*styling the table where the game happens*/
+table{
+	background-color: #f5270c;
+	border: .5px solid black;
+	margin: auto;
+}
+
+
+/*centering content*/
+div{
+	text-align: center;
+	
+}
+
+footer{
+	margin-top: 40px;
+	text-align: center;
+}

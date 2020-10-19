@@ -1,0 +1,36 @@
+<!--I am using a Dell G7 laptop with windows 10, intel core i7 8th gen and using google chrome -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tomato finder</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Clear the board without squishing any tomatoes!</h1>
+	</div>
+	<div class="game_container">
+		<table id="game_table"></table>
+	</div>
+
+	<div class="footer">
+		
+		<label>	Size of the board: </label>
+		<input type="text" value="10" id="grid_size" >
+		<br>
+		<label>	Number of tomatoes: </label>
+		<input type="text" value="10" id="num_mines" >
+		<br>
+		
+		<button onclick="makeTable()">Set Board</button>
+		<br>
+		
+		<h1 id="status"></h1>
+		
+		
+	</div>
+
+	<footer>Last modified <span id="last_modified"></span></footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
